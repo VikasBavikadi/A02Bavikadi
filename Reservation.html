@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hello Bear cats!!!!</title>
+<link type='text/css' rel="stylesheet" href="Bavikadi_Vikas.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="modified.html">Vermillion Restaurant</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="modified.html">Home <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="Reservation.html">Reservations</a></li>
+      </ul>
+      <!--<form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>-->
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<br>
+<br>
+<div id="details">
+<form method="POST" >
+   <p> First name:  &nbsp;&nbsp;&nbsp;
+<input type="text" name="firstname" placeholder="Enter your first name" required>
+<br>
+<br>
+Last name:  &nbsp;&nbsp;&nbsp;
+<input type="text" name="lastname" placeholder="Enter your last name" required><br>
+Gender:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" id="male" name="gender" value="Male">Male
+<input type="radio" id="female" value="Female">Female<br>
+Select your Cuisine:<br>
+<input type="radio" id="indian" name="indian" value="1000">Indian &nbsp;&nbsp;
+<input type="radio" id="italian" name="italian" value="750">Italian &nbsp;&nbsp;
+<input type="radio" id="chinese" name="chinese" value="200">Chinese &nbsp;&nbsp;
+<input type="radio" id="mexican" name="mexican" value="500">Mexican <br>
+Capacity: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <select id="members" name="members">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option></select><br>
+ Select Day: &nbsp;&nbsp;&nbsp; <select name="Day">
+                <option value="Today">Today</option>
+                <option value="Tommorrow">Tommorrow</option>
+                
+        </select><br>
+        </p>
+<div style='padding-left:170px;'>
+<input type="button" value="Submit" onclick="calculate()">
+</div>
+</form>
+</div>
+<script src="calculate.js"></script>
+</body>
+</html>

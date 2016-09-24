@@ -1,0 +1,71 @@
+header{	
+	color: #fff;
+	padding: 10px;
+   margin: 0 auto;
+}
+h1{
+	font-style: italic;
+}
+#details
+{
+	
+	line-height: 300%;
+	font-size:115%;
+	padding-left:5em;
+}
+#post
+{
+	align-content:center;
+}
+p{
+padding-right: 30px;
+padding-left: 80px;
+border-radius: 20px;
+}
+body{
+	background-image: url("restaurant.jpg");
+background-size: cover;
+margin: 0px 250px 0px 250px;
+}
+ol{
+padding-right: 30px;
+padding-left: 100px;
+}
+table{
+padding-right: 30px;
+padding-left: 100px;
+}
+img {
+float: right;
+margin: 0px 0 10px 10px;
+}
+
+li a.active {
+	background-color:orange
+}
+nav ul li {
+font-style: italic;
+   display: inline; 
+   padding: 0px 40px;
+   font-weight:bold;
+}
+/*a{
+	color: #fff;
+}*/
+#video
+{
+	 padding-right: 20%;    
+    float:left;
+    align-self: left;
+    margin-left:30%;
+    position: relative;
+}
+p.big
+{
+	line-height: 200%;
+	font-style: italic;
+}
+#personal
+{
+padding-left: 15em;
+}
